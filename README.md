@@ -1,4 +1,4 @@
-# 🏨 **Bluebird — Hotel Management System**
+# 🏨 **Bluebird — Hotel Management System (#NOT_MINE -- ReUsed & Taken From GITHUB)**
 
 **A Complete PHP/MySQL Web Application for Hotel Reservation & Administration**
 
