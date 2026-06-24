@@ -1,0 +1,36 @@
+# Bluebird Hotel Management System — Dependencies
+# Software Engineering Project — Alexandria National University
+
+# --- Server Environment ---
+# XAMPP (Apache + MySQL + PHP) — Install separately from:
+# https://www.apachefriends.org/
+
+# --- Backend ---
+# PHP >= 7.4 (included with XAMPP)
+# Required PHP Extensions (usually enabled by default in XAMPP):
+# - mysqli       # MySQL database connectivity
+# - pdo_mysql    # PDO MySQL driver (for prepared statements)
+# - session      # PHP session handling
+# - gd           # Image processing (if needed for uploads)
+
+# --- Database ---
+# MySQL >= 5.7 or MariaDB >= 10.3 (included with XAMPP)
+# Database name: bluebirdhotel
+# Import: bluebirdhotel.sql via phpMyAdmin
+
+# --- Frontend (No npm/pip install needed) ---
+# Bootstrap 5.x    # Included via CDN or local files
+# HTML5 / CSS3     # Native browser support
+# JavaScript       # Native browser support
+
+# --- Development Tools ---
+# phpMyAdmin       # Database management (included with XAMPP)
+# Draw.io / StarUML / Graphviz  # UML diagramming tools
+
+# --- Optional: Security Improvements ---
+# password_hash() / password_verify()  # Built-in PHP functions (no install)
+# PDO prepared statements              # Built-in PHP feature (no install)
+
+# --- Optional: Deployment ---
+# cPanel / FTP Client                  # For live hosting deployment
+# SSL Certificate (Let's Encrypt)      # For HTTPS
